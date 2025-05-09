@@ -44,3 +44,5 @@ def get_greeting(name: str) -> str:
     """Get a personalized greeting"""
     return f"Hello from mcp server, {name}!"
 
+if __name__ == "__main__":
+    mcp.run()
